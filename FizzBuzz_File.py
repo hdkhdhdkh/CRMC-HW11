@@ -1,5 +1,4 @@
 
-
 def FizzBuzz(start, finish):
     n= finish-start+1
     outlist = []
