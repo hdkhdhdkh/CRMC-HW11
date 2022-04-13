@@ -1,4 +1,5 @@
 
+
 def getBondDuration(y, face, couponRate, m, ppy = 1):
  pvcfsum =0 
  cf=0
@@ -14,8 +15,7 @@ def getBondDuration(y, face, couponRate, m, ppy = 1):
     wt=wt+t*((1 + y)**(-t)) * cf
     pvcfsum = pvcfsum + ((1 + y )**(-t)) * cf
     t+=1
-    
-    #bondDuration = wt/pvcfsum
+ 
 
  return(wt/pvcfsum)
    
