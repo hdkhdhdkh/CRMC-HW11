@@ -11,8 +11,3 @@ def getBondPrice_Z(face, couponRate, times, yc):
  bondprice = pvcfsum + pv*face
  return(bondprice) 
 
-yc = [.010,.015,.020,.025,.030]
-times=[1,1.5,3,4,7]
-face = 2000000
-couponRate = .04
-getBondPrice_Z(face, couponRate, times, yc)
